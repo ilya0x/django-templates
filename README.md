@@ -24,17 +24,21 @@ providing features like built-in protection against common web vulnerabilities
 
 ## <img src="./images/template-20.png" alt="template"> Templates & Project Examples
 
-<b>Standard File Structure Template</b> -
-
-<b>CRM App</b> - A customer relationship management (CRM) application with
-complete block and inline notes on customization of variables.
-
-<b>TopFloor0x Marketplace</b> - A complete functioning marketplace. Live at topfloor0x.com
-
-<b>RollD20 App</b> - A tabletop gaming support app with video, voice and text
-chat integration. Live at rolld20.online
-
-<b>Web API</b> - interactive Web API using Django REST framework.
+<b>Standard File Structure Template</b> -<br>
+<br>
+<a href="https://github.com/ilya0x/crm-app"><b>CRM App</b></a> - A customer
+relationship management (CRM) application with complete block and inline notes
+on customization of variables.<br>
+<br>
+<a href="https://github.com/ilya0x/topfloor0x-marketplace">
+<b>TopFloor0x Marketplace</b></a> - A complete functioning marketplace. Live at topfloor0x.com<br>
+<br>
+<a href="https://github.com/ilya0x/rolld20-app"><b>RollD20 App</b></a> - A
+tabletop gaming support app with video, voice and text chat integration. Live at
+rolld20.online<br>
+<br>
+<a href="https://github.com/ilya0x/web-api"><b>Web API</b></a> - interactive
+Web API using Django REST framework.
 
 <br>
 
