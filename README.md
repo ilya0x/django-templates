@@ -22,7 +22,7 @@ providing features like built-in protection against common web vulnerabilities
 
 <br>
 
-## <img src="./images/template-20.png" alt="template"> Templates
+## <img src="./images/template-20.png" alt="template"> Templates & Project Examples
 
 <b>Standard File Structure Template</b> -
 
