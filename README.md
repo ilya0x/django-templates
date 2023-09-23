@@ -31,7 +31,8 @@ relationship management (CRM) application with complete block and inline notes
 on customization of variables.<br>
 <br>
 <a href="https://github.com/ilya0x/topfloor0x-marketplace">
-<b>TopFloor0x Marketplace</b></a> - A complete functioning marketplace. Live at topfloor0x.com<br>
+<b>MerchantGuild.Shop Marketplace</b></a> - A complete functioning marketplace.
+Live at merchantguild.shop<br>
 <br>
 <a href="https://github.com/ilya0x/rolld20-app"><b>RollD20 App</b></a> - A
 tabletop gaming support app with video, voice and text chat integration. Live at
