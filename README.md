@@ -65,3 +65,15 @@ forms.py, admin.py, ...) based on views and models files from your apps.<br>
 <!--TODO: Table of Contents -->
 
 <br>
+
+### Project Setup
+
+A step-by-step walkthrough of Django project setup:
+
+1. It is recommended to work in a virtual environment. Python comes with virtual
+   environment generator "venv".<br>
+   Create a virtual environment by running: `$ python3 -m venv env`
+2. Activate the virtual environment: `$ .\env\Scripts\Activate.ps1`
+   - Deactivate with `$ deactivate`
+3. Install Django: `$ pip install django`
+4. Start Django project: `$ django-admin startproject name-of-project`
