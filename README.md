@@ -77,3 +77,9 @@ A step-by-step walkthrough of Django project setup:
    - Deactivate with `$ deactivate`
 3. Install Django: `$ pip install django`
 4. Start Django project: `$ django-admin startproject name-of-project`
+
+<br>
+
+> [Django Project – Code a CRM App Tutorial
+](https://youtu.be/t10QcFx7d5k?si=nXjnBPtPB2htBcnh) has a section at beginning
+on how to setup MySQL with Django.
