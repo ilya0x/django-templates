@@ -77,9 +77,70 @@ A step-by-step walkthrough of Django project setup:
    - Deactivate with `$ deactivate`
 3. Install Django: `$ pip install django`
 4. Start Django project: `$ django-admin startproject name-of-project`
+5. If using Git & GitHub, you can exclude the `env` by creating a `.gitignore`
+   file in your project's root directory with entry for the folder you want to exclude:
+   `/excluded_folder_name/`
 
 <br>
 
 > [Django Project – Code a CRM App Tutorial
 ](https://youtu.be/t10QcFx7d5k?si=nXjnBPtPB2htBcnh) has a section at beginning
 on how to setup MySQL with Django.
+
+<br>
+
+### Function-Based Views
+
+Function-Based Views (FBVs) in Django are a way to define the logic for handling
+HTTP requests in a Django web application by using Python functions. They are a
+fundamental concept in Django for building web applications and are an
+alternative to Class-Based Views (CBVs). Here's an explanation of Function-Based
+Views in Django:
+
+**Basic Structure:** In a Function-Based View, you define a Python function to
+handle a specific URL pattern or HTTP request. This function takes an HTTP
+request object as its argument and returns an HTTP response object. The
+function's name usually reflects the view's purpose, such as `my_view(request)`.
+
+**Simplicity:** Function-Based Views are known for their simplicity and
+straightforwardness. They are suitable for handling simple views or views that
+perform a single action in response to an HTTP request. This simplicity can make
+them easier to understand and maintain for small to moderately complex views.
+
+**Decorators:** You can use Python decorators to add functionality to Function-Based
+Views. Decorators allow you to perform tasks like authentication, permission
+checks, and caching before or after the view function is executed. Django
+provides built-in decorators like `@login_required` and `@permission_required` for
+this purpose.
+
+<br>
+
+### Class-Based Views
+
+Class-Based Views (CBVs) in Django are an alternative approach to defining the
+logic for handling HTTP requests in a Django web application. Unlike
+Function-Based Views (FBVs), which use functions to handle requests, CBVs use
+Python classes to organize and encapsulate view behavior. Here's an explanation
+of Class-Based Views in Django:
+
+**Class Structure:** In Class-Based Views, views are defined as Python classes
+rather than functions. Each view is represented as a class, and the HTTP methods
+(GET, POST, etc.) are handled by class methods with specific names, such as
+`get()`, `post()`, `put()`, and so on. The class name usually reflects the view's
+purpose.
+
+**Reusability:** One of the primary advantages of CBVs is their ability to promote
+code reuse. You can create base view classes with common functionality and then
+inherit from these base classes to create specific views. This encourages the
+DRY (Don't Repeat Yourself) principle and makes it easier to maintain and extend
+your views.
+
+**Mixins:** Django provides a set of reusable view components called mixins, which
+are classes that can be mixed into your view classes to add specific behavior.
+For example, the `LoginRequiredMixin` mixin can be used to require user
+authentication for a view. Mixins enhance the flexibility of CBVs.
+
+**Decorators:** You can still use decorators with Class-Based Views to add
+functionality, similar to Function-Based Views. Decorators are applied to class
+methods rather than functions. For instance, you can use the `@login_required`
+decorator to require authentication for specific HTTP methods.
